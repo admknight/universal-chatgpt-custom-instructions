@@ -9,12 +9,12 @@ Ready-to-paste adaptive ChatGPT Custom Instructions for Free, Go, Plus, Pro, Bus
 ### Free / Go
 Copy the complete contents of `COPY-THIS-Free-Go.txt` and paste them into ChatGPT Custom Instructions.
 
-Current length: **1,492 / 1,500 characters**.
+Current length: **1,498 / 1,500 characters**.
 
 ### Plus / Pro / Business / Enterprise / Education
 Copy the complete contents of `COPY-THIS-Plus-Pro-Business-Enterprise-Education.txt` and paste them into ChatGPT Custom Instructions.
 
-Current length: **4,996 / 5,000 characters**.
+Current length: **4,960 / 5,000 characters**.
 
 ## Where to paste
 
@@ -41,15 +41,15 @@ Full authorship, copyright and licensing information stays in the repository met
 
 ## Design principles
 
-The runtime instructions prioritize five ideas: **Adapt, Ground, Preserve, Verify, Economize.** They are compressed so the character budget is spent on useful behavior rather than ceremonial formatting.
+The runtime instructions prioritize five ideas: **Adapt, Ground, Preserve, Verify, Economize.** Verification now includes an explicit source hierarchy: prefer governing primary/official evidence for material or current claims; use secondary sources mainly for discovery, context or corroboration; cross-check high-consequence/disputed claims; surface conflicts and lower certainty when primary verification is unavailable. The instructions remain compressed so the character budget is spent on useful behavior rather than ceremonial formatting.
 
 ## Validation status
 
-The files pass structural checks for character limits, compact attribution, required repository structure, repository separation and JSON metadata. Live behavior has not been empirically validated in every ChatGPT account/UI combination, so this release is not described as universally runtime-proven.
+The files pass structural and representative scenario/regression checks, including source-hierarchy coverage, character limits, compact attribution, repository separation and JSON metadata. The revised v1.0.1 blocks have not yet completed a live ChatGPT Custom Instructions UI/runtime pilot, so this release is not described as runtime-proven or production-ready.
 
 ## Version
 
-Initial pre-publication release: **v1.0.0**.
+Current release: **v1.0.1**.
 
 ## License
 
