@@ -1,22 +1,25 @@
 from pathlib import Path
 import json, sys
 ROOT=Path(__file__).resolve().parents[1]
-required=[
-'<!-- UPA_AUTHOR_IDENTITY_START -->','**Author:** Zahid Hussain','**Designation:** Founder & CEO',
-'**Organization:** Scopewise Consulting','**Email:** mzhspk@gmail.com','**Generated with:** Universal Prompt Architect',
-'**Architecture:** R6','**Copyright:** Copyright © 2026 Scopewise Consulting. All rights reserved.','<!-- UPA_AUTHOR_IDENTITY_END -->']
+ATTR='© 2026 Zahid Hussain / Scopewise Consulting | UPA R6'
 checks=[('COPY-THIS-Free-Go.txt',1500),('COPY-THIS-Plus-Pro-Business-Enterprise-Education.txt',5000)]
 ok=True
 for name,limit in checks:
     text=(ROOT/name).read_text(encoding='utf-8')
     print(f'{name}: {len(text)}/{limit}')
     if len(text)>limit: ok=False; print('FAIL: character limit exceeded')
-    for token in required:
-        if token not in text: ok=False; print(f'FAIL: {name} missing attribution token: {token}')
-if (ROOT/'VERSION').read_text().strip()!='1.0.0': ok=False; print('FAIL: VERSION must be 1.0.0')
+    if not text.startswith(ATTR+'\n'): ok=False; print('FAIL: compact attribution missing')
+    if '<!-- UPA_AUTHOR_IDENTITY_START -->' in text: ok=False; print('FAIL: long attribution banner still present')
+for token in ['unrelated tasks','documents/reports','AI/prompt']:
+    if token not in (ROOT/'COPY-THIS-Free-Go.txt').read_text(encoding='utf-8'): ok=False; print('FAIL Free/Go coverage:',token)
+for token in ['NOVEL DOMAINS & AI','unfamiliar domains','agents, Skills or automation']:
+    if token not in (ROOT/'COPY-THIS-Plus-Pro-Business-Enterprise-Education.txt').read_text(encoding='utf-8'): ok=False; print('FAIL paid coverage:',token)
+if (ROOT/'VERSION').read_text().strip()!='1.0.0': ok=False; print('FAIL: VERSION')
 for forbidden in ['modules','private','upstream']:
-    if (ROOT/forbidden).exists(): ok=False; print(f'FAIL: forbidden public path exists: {forbidden}')
+    if (ROOT/forbidden).exists(): ok=False; print('FAIL: forbidden public path:',forbidden)
 for p in (ROOT/'release').glob('*.library.json'):
-    json.loads(p.read_text(encoding='utf-8')); print(f'{p.name}: JSON PASS')
+    d=json.loads(p.read_text(encoding='utf-8'))
+    assert d['author']['name']=='Zahid Hussain' and d['author']['organization']=='Scopewise Consulting'
+    print(f'{p.name}: JSON/full metadata PASS')
 print('PASS' if ok else 'FAIL')
 sys.exit(0 if ok else 1)

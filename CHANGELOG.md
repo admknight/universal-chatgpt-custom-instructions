@@ -2,10 +2,11 @@
 
 ## v1.0.0 - 2026-10-04
 
-Initial public release.
+Pre-publication baseline.
 
-- Added one ready-to-paste Custom Instructions file for Free/Go accounts.
-- Added one ready-to-paste Custom Instructions file for Plus/Pro/Business/Enterprise/Education accounts.
-- Added automatic task adaptation; no user-facing module activation is required.
-- Added evidence/currentness discipline, file-content authority controls, baseline preservation, tool truthfulness, high-consequence verification, technical/professional behavior, image/reference identity preservation, multimedia continuity, and token-efficiency rules.
-- Added automated structural validation and official OpenAI references.
+- Repository name finalized as `universal-chatgpt-custom-instructions`.
+- Kept one copy-paste file per ChatGPT plan class; no module activation or builder required.
+- Replaced the long runtime attribution banner with the user-authorized compact attribution line to recover Custom Instructions space.
+- Used reclaimed space to strengthen unfamiliar-domain, document/report and AI/prompt adaptation.
+- Free/Go deployment length: 1,492 / 1,500 characters.
+- Paid-plan deployment length: 4,996 / 5,000 characters.
