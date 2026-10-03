@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "AUTO",
+  "title": "Universal Adaptive Custom Instructions - Free/Go",
+  "revision": "AUTO",
+  "category": "GENERAL",
+  "domain_category": "GENERAL",
+  "subcategory": "AI Interaction & Personalization - Free/Go",
+  "structure_category": "MASTER_WORKFLOW",
+  "functional_types": [
+    "GENERATION",
+    "ANALYSIS",
+    "REVIEW",
+    "TRANSFORMATION",
+    "DOCUMENTATION"
+  ],
+  "tags": [
+    "custom-instructions",
+    "chatgpt",
+    "adaptive-response",
+    "quality-control",
+    "reference-continuity"
+  ],
+  "taxonomy_status": "CLASSIFIED",
+  "library_action": "DO_NOT_STORE",
+  "status": "DRAFT",
+  "interaction_mode": "DIRECT",
+  "startup_menu": false,
+  "natural_language_routing": true,
+  "generated_with_core": "R6",
+  "validated_against_core": "R6",
+  "validation_status": "PASS",
+  "qualification_schema_version": "1.0",
+  "artifact_type": "PROMPT",
+  "target_runtime": "ChatGPT Custom Instructions",
+  "validation_tier": "STRUCTURAL_PASS",
+  "release_state": "STRUCTURALLY_VALIDATED",
+  "runtime_dependency": "USER_UI_DEPENDENT",
+  "runtime_validation_required": true,
+  "runtime_validation_status": "NOT_RUN",
+  "external_pilot_gate": "NOT_RUN",
+  "test_suite_status": "NOT_RUN",
+  "critical_tests_passed": "UNKNOWN",
+  "major_tests_passed": "UNKNOWN",
+  "unresolved_blockers": [
+    "Live Custom Instructions UI/runtime pilot has not been executed in every intended account and device environment."
+  ],
+  "known_limitations": [
+    "Custom Instructions guide behavior but do not add unavailable account/model/tool capabilities.",
+    "Plan limits, UI labels, and platform behavior may change and require revalidation."
+  ],
+  "evidence_summary": "Character limit, protected attribution, required files, repository separation rules, and JSON structure validated on 2026-10-04.",
+  "validated_environment": "Container-based structural validation; no live ChatGPT Custom Instructions UI pilot recorded.",
+  "validated_at": "2026-10-04",
+  "revalidation_trigger": "Material change to ChatGPT Custom Instructions limits, UI, account tiers, model behavior, or prompt logic.",
+  "copy_ready": false,
+  "copy_ready_validation_status": "NOT_RUN",
+  "ui_binding_validation_status": "NOT_RUN",
+  "test_report_file": null,
+  "notes": "Public v1.0.0 copy/paste edition for the 1,500-character Custom Instructions limit.",
+  "allow_similar_new": false,
+  "generated_with": "Universal Prompt Architect",
+  "author": {
+    "name": "Zahid Hussain",
+    "designation": "Founder & CEO",
+    "organization": "Scopewise Consulting",
+    "email": "mzhspk@gmail.com"
+  },
+  "copyright": {
+    "year": 2026,
+    "holder": "Scopewise Consulting",
+    "notice": "Copyright © 2026 Scopewise Consulting. All rights reserved."
+  }
+}
