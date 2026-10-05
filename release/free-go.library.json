@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "prompt_id": "AUTO",
   "title": "Universal ChatGPT Custom Instructions - Free/Go",
-  "revision": "1.0.1",
+  "revision": "1.0.2",
   "category": "GENERAL",
   "domain_category": "GENERAL",
   "subcategory": "AI Interaction & Personalization - Free/Go",
@@ -43,21 +43,21 @@
   "critical_tests_passed": true,
   "major_tests_passed": true,
   "unresolved_blockers": [
-    "Revised v1.0.1 Custom Instructions block has not yet been executed in a live intended ChatGPT UI/runtime."
+    "Revised v1.0.2 Custom Instructions block has not yet been executed in a live intended ChatGPT UI/runtime."
   ],
   "known_limitations": [
     "Custom Instructions guide behavior but do not add unavailable account/model/tool capabilities.",
     "Plan limits, UI labels, and platform behavior may change and require revalidation."
   ],
-  "evidence_summary": "v1.0.1 source-hierarchy patch: character limit, compact runtime attribution, repository separation, source-priority controls, secondary-source limits and regression coverage PASS; revised-block live runtime pilot NOT_RUN.",
-  "validated_environment": "Container-based structural/scenario validation; no live revised-v1.0.1 public Custom Instructions pilot.",
-  "validated_at": "2026-10-04",
+  "evidence_summary": "v1.0.2 scope-control/clarification patch plus v1.0.1 source-hierarchy controls: character limit, compact attribution, scope preservation, unsupported-scope suppression, material-clarification/assumption discipline and eight regression scenarios PASS; revised-block live runtime pilot NOT_RUN.",
+  "validated_environment": "Container-based structural/scenario validation; no live revised-v1.0.2 Custom Instructions pilot.",
+  "validated_at": "2026-10-06",
   "revalidation_trigger": "Material change to ChatGPT Custom Instructions limits, UI, account tiers, model behavior, or prompt logic.",
   "copy_ready": false,
   "copy_ready_validation_status": "PASS",
   "ui_binding_validation_status": "NOT_RUN",
   "test_report_file": "../validation/public.test-report.json",
-  "notes": "Public v1.0.1 copy/paste edition for the 1,500-character Custom Instructions limit. Full author/contact/copyright metadata remains in this sidecar and repository documentation; runtime attribution is intentionally compact. Source-verification hardening added after observed runtime source-rigor weakness.",
+  "notes": "Public v1.0.2 copy/paste edition for the 1,500-character Custom Instructions limit. Scope-control hardening added after a real estimating/RFI-RFQ incident exposed over-eager optional-feature clarification. Full author/contact/copyright metadata remains in this sidecar and repository documentation; runtime attribution is intentionally compact.",
   "allow_similar_new": false,
   "generated_with": "Universal Prompt Architect",
   "author": {

@@ -11,11 +11,11 @@ for name,limit in checks:
     if len(text)>limit: ok=False; print('FAIL: character limit exceeded')
     if not text.startswith(ATTR+'\n'): ok=False; print('FAIL: compact attribution missing')
     if '<!-- UPA_AUTHOR_IDENTITY_START -->' in text: ok=False; print('FAIL: long attribution banner still present')
-for token in ['unrelated tasks','documents/reports','AI/prompt','primary, official or governing sources','secondary sources for context/corroboration','high-consequence/disputed claims']:
+for token in ['unrelated tasks','AI/prompt','primary, official or governing sources','secondary sources for context/corroboration','high-consequence/disputed claims','Preserve stated scope','clarify material gaps','unsupported additions','assume/qualify']:
     if token not in texts['COPY-THIS-Free-Go.txt']: ok=False; print('FAIL Free/Go coverage:',token)
-for token in ['NOVEL DOMAINS & AI','unfamiliar domains','agents, Skills or automation','governing primary/official sources','Use secondary sources for context, interpretation or discovery','Cross-check high-consequence/disputed claims','primary verification is unavailable']:
+for token in ['NOVEL DOMAINS & AI','unfamiliar domains','agents, Skills or automation','governing primary/official sources','Use secondary sources for context, interpretation or discovery','Cross-check high-consequence/disputed claims','primary verification is unavailable','preserve stated scope','do not add unsupported scope','ask only when missing information materially changes the result']:
     if token not in texts['COPY-THIS-Plus-Pro-Business-Enterprise-Education.txt']: ok=False; print('FAIL paid coverage:',token)
-if (ROOT/'VERSION').read_text().strip()!='1.0.1': ok=False; print('FAIL: VERSION')
+if (ROOT/'VERSION').read_text().strip()!='1.0.2': ok=False; print('FAIL: VERSION')
 for forbidden in ['modules','private','upstream']:
     if (ROOT/forbidden).exists(): ok=False; print('FAIL: forbidden public path:',forbidden)
 for p in (ROOT/'release').glob('*.library.json'):
