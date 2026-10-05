@@ -9,12 +9,12 @@ Ready-to-paste adaptive ChatGPT Custom Instructions for Free, Go, Plus, Pro, Bus
 ### Free / Go
 Copy the complete contents of `COPY-THIS-Free-Go.txt` and paste them into ChatGPT Custom Instructions.
 
-Current length: **1,495 / 1,500 characters**.
+Current length: **1,497 / 1,500 characters**.
 
 ### Plus / Pro / Business / Enterprise / Education
 Copy the complete contents of `COPY-THIS-Plus-Pro-Business-Enterprise-Education.txt` and paste them into ChatGPT Custom Instructions.
 
-Current length: **4,993 / 5,000 characters**.
+Current length: **4,997 / 5,000 characters**.
 
 ## Where to paste
 
@@ -41,15 +41,15 @@ Full authorship, copyright and licensing information stays in the repository met
 
 ## Design principles
 
-The runtime instructions prioritize five ideas: **Adapt, Ground, Preserve, Verify, Economize.** Verification includes an explicit source hierarchy: prefer governing primary/official evidence for material or current claims; use secondary sources mainly for discovery, context or corroboration; cross-check high-consequence/disputed claims; surface conflicts and lower certainty when primary verification is unavailable. Scope control now uses a trigger-first gate: do not add a clarification, requirement, alternate, exclusion or assumption without project/governing basis or unavoidable technical need. Common practice/options, usefulness, risk or price impact alone are not basis; absence is not ambiguity. With no basis, omit the item rather than choosing a default, while still allowing a bounded assumption when genuinely needed to complete the task. The instructions remain compressed so the character budget is spent on useful behavior rather than ceremonial formatting.
+The runtime instructions prioritize five ideas: **Adapt, Ground, Preserve, Verify, Economize.** Verification includes an explicit source hierarchy: prefer governing primary/official evidence for material or current claims; use secondary sources mainly for discovery, context or corroboration; cross-check high-consequence/disputed claims; surface conflicts and lower certainty when primary verification is unavailable. Scope control now requires the trigger to originate in the request/project evidence, a governing rule or a necessary dependency of stated scope. Model-raised options or market variants cannot create their own trigger; common practice, completeness/comparability, usefulness, risk or price alone are insufficient. Without a trigger, omit the item and do not ask, specify or default it; bounded assumptions remain available only when task completion genuinely requires one. The instructions remain compressed so the character budget is spent on useful behavior rather than ceremonial formatting.
 
 ## Validation status
 
-The files pass structural and deterministic scenario/regression checks, including source hierarchy, trigger-first scope control, character limits, compact attribution, repository separation and JSON metadata. A fresh live personal v1.0.3 pilot exposed the residual unsupported-scope/defaulting defect that triggered this patch. The revised v1.0.4 blocks still require a fresh live ChatGPT Custom Instructions runtime pilot, so this release is not described as runtime-proven or production-ready.
+The files pass structural and deterministic scenario/regression checks, including source hierarchy, source-origin scope triggers, self-trigger suppression, character limits, compact attribution, repository separation and JSON metadata. A fresh live personal v1.0.4 pilot exposed the residual model-created comparability trigger that prompted this patch. The revised v1.0.5 blocks still require a fresh live ChatGPT Custom Instructions runtime pilot, so this release is not described as runtime-proven or production-ready.
 
 ## Version
 
-Current release: **v1.0.4**.
+Current release: **v1.0.5**.
 
 ## License
 

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "prompt_id": "AUTO",
   "title": "Universal ChatGPT Custom Instructions - Free/Go",
-  "revision": "1.0.4",
+  "revision": "1.0.5",
   "category": "GENERAL",
   "domain_category": "GENERAL",
   "subcategory": "AI Interaction & Personalization - Free/Go",
@@ -43,21 +43,21 @@
   "critical_tests_passed": true,
   "major_tests_passed": true,
   "unresolved_blockers": [
-    "Revised v1.0.4 Custom Instructions block has not yet been executed in a fresh live intended ChatGPT UI/runtime after the corrective patch."
+    "Revised v1.0.5 Custom Instructions block has not yet been executed in a fresh live intended ChatGPT UI/runtime after the corrective patch."
   ],
   "known_limitations": [
     "Custom Instructions guide behavior but do not add unavailable account/model/tool capabilities.",
     "Plan limits, UI labels, and platform behavior may change and require revalidation."
   ],
-  "evidence_summary": "v1.0.4 scope-trigger correction after a live personal v1.0.3 pilot exposed residual scope injection in shared logic: an unsupported optional feature was still turned into an explicit RFQ decision because it could affect price. Character limits, source hierarchy, trigger-first scope control, absence-is-not-ambiguity, no-trigger omission/default suppression and expanded regressions PASS; revised v1.0.4 public runtime pilot NOT_RUN.",
-  "validated_environment": "Container-based structural/scenario validation informed by a live personal v1.0.3 failure in shared scope-control logic; no live revised-v1.0.4 public Custom Instructions pilot.",
+  "evidence_summary": "v1.0.5 self-generated-trigger correction after a live personal v1.0.4 pilot exposed residual scope injection in shared logic: unsupported punching was still introduced as a blank-vs-punched decision for quotation comparability despite no project trigger. Character limits, source hierarchy, source-origin trigger control, self-trigger suppression and expanded regressions PASS; revised v1.0.5 public runtime pilot NOT_RUN.",
+  "validated_environment": "Container-based structural/scenario validation informed by a live personal v1.0.4 failure in shared scope-control logic; no live revised-v1.0.5 public Custom Instructions pilot.",
   "validated_at": "2026-10-06",
   "revalidation_trigger": "Material change to ChatGPT Custom Instructions limits, UI, account tiers, model behavior, or prompt logic.",
   "copy_ready": false,
   "copy_ready_validation_status": "PASS",
   "ui_binding_validation_status": "NOT_RUN",
   "test_report_file": "../validation/public.test-report.json",
-  "notes": "Public v1.0.4 copy/paste edition for the 1,500-character Custom Instructions limit. Adds trigger-first scope control and absence-is-not-ambiguity/default-suppression while preserving source verification and established adaptive/professional behavior. Full author/contact/copyright metadata remains in this sidecar and repository documentation; runtime attribution is intentionally compact.",
+  "notes": "Public v1.0.5 copy/paste edition for the 1,500-character Custom Instructions limit. Adds source-origin scope triggers and self-trigger suppression while preserving source verification and established adaptive/professional behavior. Full author/contact/copyright metadata remains in this sidecar and repository documentation; runtime attribution is intentionally compact.",
   "allow_similar_new": false,
   "generated_with": "Universal Prompt Architect",
   "author": {

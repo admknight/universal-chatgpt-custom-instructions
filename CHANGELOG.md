@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.0.5 - 2026-10-06
+
+Self-generated scope-trigger correction after live v1.0.4 residual failure.
+
+- Records the fresh live v1.0.4 personal RFQ failure where unsupported punching was still introduced as a blank-vs-punched decision for quotation comparability despite no project trigger.
+- Requires scope triggers to originate in the request/project evidence, a governing rule, or a necessary dependency of already-stated scope.
+- States that model-raised options/market variants cannot self-trigger; practice, completeness/comparability, usefulness, risk or price alone are insufficient.
+- Without a trigger, omit the item and do not ask, specify or default it.
+- Adds permanent regressions for model-created dependencies and market-variant/comparability self-triggering while preserving genuine stated-scope dependencies.
+- Preserves governing-source hierarchy and established adaptive, preservation, technical, AI/prompt and multimedia behavior.
+- Free/Go deployment length: 1,497 / 1,500 characters.
+- Paid deployment length: 4,997 / 5,000 characters.
+
 ## v1.0.4 - 2026-10-06
 
 Trigger-first scope-control correction after live v1.0.3 residual failure.
@@ -44,7 +57,7 @@ Source-verification hardening patch.
 - Secondary sources are now explicitly limited to discovery, context, interpretation or corroboration when suitable primary evidence exists.
 - Added cross-checking for high-consequence/disputed claims, conflict disclosure and lower certainty when primary verification is unavailable.
 - Added regression validation so future edits cannot silently remove the source-hierarchy controls.
-- Free/Go deployment length: 1,498 / 1,500 characters.
+- Free/Go deployment length: 1,497 / 1,500 characters.
 - Paid deployment length: 4,960 / 5,000 characters.
 
 
