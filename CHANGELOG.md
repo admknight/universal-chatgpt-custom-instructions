@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.0.4 - 2026-10-06
+
+Trigger-first scope-control correction after live v1.0.3 residual failure.
+
+- Records the fresh live v1.0.3 RFQ failure where unsupported punching was still turned into an explicit RFQ decision because it could affect price.
+- Strengthens the scope gate: clarification/requirement/alternate/exclusion/assumption needs project/governing basis or unavoidable technical need.
+- States that common practice/options, usefulness, risk or price impact alone are not scope basis and that absence of a requirement is not ambiguity.
+- Prevents the model from curing absent scope by choosing a default option; without basis, omit the item unless a working assumption is genuinely needed to complete the task.
+- Adds permanent regressions for price-only relevance, forced-default scope injection and preservation of necessary bounded assumptions.
+- Preserves governing-source hierarchy and established adaptive, preservation, technical, AI/prompt and multimedia behavior.
+- Free/Go deployment length: 1,495 / 1,500 characters.
+- Paid deployment length: 4,993 / 5,000 characters.
+
 ## v1.0.3 - 2026-10-06
 
 Project-basis-before-materiality scope-control patch.
