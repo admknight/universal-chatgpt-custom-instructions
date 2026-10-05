@@ -9,12 +9,12 @@ Ready-to-paste adaptive ChatGPT Custom Instructions for Free, Go, Plus, Pro, Bus
 ### Free / Go
 Copy the complete contents of `COPY-THIS-Free-Go.txt` and paste them into ChatGPT Custom Instructions.
 
-Current length: **1,497 / 1,500 characters**.
+Current length: **1,496 / 1,500 characters**.
 
 ### Plus / Pro / Business / Enterprise / Education
 Copy the complete contents of `COPY-THIS-Plus-Pro-Business-Enterprise-Education.txt` and paste them into ChatGPT Custom Instructions.
 
-Current length: **4,996 / 5,000 characters**.
+Current length: **4,995 / 5,000 characters**.
 
 ## Where to paste
 
@@ -41,15 +41,15 @@ Full authorship, copyright and licensing information stays in the repository met
 
 ## Design principles
 
-The runtime instructions prioritize five ideas: **Adapt, Ground, Preserve, Verify, Economize.** Verification includes an explicit source hierarchy: prefer governing primary/official evidence for material or current claims; use secondary sources mainly for discovery, context or corroboration; cross-check high-consequence/disputed claims; surface conflicts and lower certainty when primary verification is unavailable. Scope control now also requires the runtime to preserve stated scope, distinguish material gaps from unsupported/common possibilities, and use a reasonable assumption or qualification instead of unnecessary clarification where appropriate. The instructions remain compressed so the character budget is spent on useful behavior rather than ceremonial formatting.
+The runtime instructions prioritize five ideas: **Adapt, Ground, Preserve, Verify, Economize.** Verification includes an explicit source hierarchy: prefer governing primary/official evidence for material or current claims; use secondary sources mainly for discovery, context or corroboration; cross-check high-consequence/disputed claims; surface conflicts and lower certainty when primary verification is unavailable. Scope control now uses a basis gate before materiality: common/optional possibilities are not treated as missing scope unless project/governing evidence or a real technical/functional need makes them relevant. Material gaps are still actively identified; otherwise a reasonable assumption or qualification is preferred. The instructions remain compressed so the character budget is spent on useful behavior rather than ceremonial formatting.
 
 ## Validation status
 
-The files pass structural and representative scenario/regression checks, including source hierarchy, scope-control/clarification discipline, character limits, compact attribution, repository separation and JSON metadata. The revised v1.0.2 blocks have not yet completed a live ChatGPT Custom Instructions UI/runtime pilot, so this release is not described as runtime-proven or production-ready.
+The files pass structural and representative scenario/regression checks, including source hierarchy, basis-gated scope control, character limits, compact attribution, repository separation and JSON metadata. A live personal v1.0.2 pilot exposed the optional-feature clarification defect that triggered this patch. The revised v1.0.3 blocks still require a fresh live ChatGPT Custom Instructions runtime pilot, so this release is not described as runtime-proven or production-ready.
 
 ## Version
 
-Current release: **v1.0.2**.
+Current release: **v1.0.3**.
 
 ## License
 

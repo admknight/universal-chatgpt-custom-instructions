@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.0.3 - 2026-10-06
+
+Project-basis-before-materiality scope-control patch.
+
+- Corrects a live v1.0.2 regression where a fresh RFQ response still promoted factory punching into a clarification solely because it could affect price.
+- Adds an explicit basis gate: common/optional possibilities are not missing scope; clarification requires project/governing basis or a genuine technical/functional need before materiality is considered.
+- Preserves active gap/conflict review, reasonable assumptions/qualifications, source hierarchy and all established technical/professional behavior.
+- Adds a permanent price-effect-alone regression case so a merely price-changing option cannot become a clarification without scope/technical basis.
+- Free/Go deployment length: 1,496 / 1,500 characters.
+- Paid deployment length: 4,995 / 5,000 characters.
+
 ## v1.0.2 - 2026-10-06
 
 Scope-control and clarification-discipline hardening patch.

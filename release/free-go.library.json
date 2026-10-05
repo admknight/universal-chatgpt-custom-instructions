@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "prompt_id": "AUTO",
   "title": "Universal ChatGPT Custom Instructions - Free/Go",
-  "revision": "1.0.2",
+  "revision": "1.0.3",
   "category": "GENERAL",
   "domain_category": "GENERAL",
   "subcategory": "AI Interaction & Personalization - Free/Go",
@@ -43,21 +43,21 @@
   "critical_tests_passed": true,
   "major_tests_passed": true,
   "unresolved_blockers": [
-    "Revised v1.0.2 Custom Instructions block has not yet been executed in a live intended ChatGPT UI/runtime."
+    "Revised v1.0.3 Custom Instructions block has not yet been executed in a fresh live intended ChatGPT UI/runtime after the corrective patch."
   ],
   "known_limitations": [
     "Custom Instructions guide behavior but do not add unavailable account/model/tool capabilities.",
     "Plan limits, UI labels, and platform behavior may change and require revalidation."
   ],
-  "evidence_summary": "v1.0.2 scope-control/clarification patch plus v1.0.1 source-hierarchy controls: character limit, compact attribution, scope preservation, unsupported-scope suppression, material-clarification/assumption discipline and eight regression scenarios PASS; revised-block live runtime pilot NOT_RUN.",
-  "validated_environment": "Container-based structural/scenario validation; no live revised-v1.0.2 Custom Instructions pilot.",
+  "evidence_summary": "v1.0.3 project-basis-before-materiality correction: shared v1.0.2 scope logic was revised after a live personal pilot exposed optional-feature clarification based on price effect alone. Character limit, compact attribution, source hierarchy, basis-gated scope control, genuine-gap preservation and expanded regression scenarios PASS; revised v1.0.3 runtime pilot NOT_RUN.",
+  "validated_environment": "Container-based structural/scenario validation informed by a live personal v1.0.2 failure; no live revised-v1.0.3 public Custom Instructions pilot.",
   "validated_at": "2026-10-06",
   "revalidation_trigger": "Material change to ChatGPT Custom Instructions limits, UI, account tiers, model behavior, or prompt logic.",
   "copy_ready": false,
   "copy_ready_validation_status": "PASS",
   "ui_binding_validation_status": "NOT_RUN",
   "test_report_file": "../validation/public.test-report.json",
-  "notes": "Public v1.0.2 copy/paste edition for the 1,500-character Custom Instructions limit. Scope-control hardening added after a real estimating/RFI-RFQ incident exposed over-eager optional-feature clarification. Full author/contact/copyright metadata remains in this sidecar and repository documentation; runtime attribution is intentionally compact.",
+  "notes": "Public v1.0.3 copy/paste edition for the 1,500-character Custom Instructions limit. Adds the project-basis-before-materiality gate while preserving active professional review and v1.0.1 source verification. Full author/contact/copyright metadata remains in this sidecar and repository documentation; runtime attribution is intentionally compact.",
   "allow_similar_new": false,
   "generated_with": "Universal Prompt Architect",
   "author": {
